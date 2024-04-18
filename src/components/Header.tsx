@@ -1,8 +1,6 @@
 import "../css/header.css";
-import "../css/App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {} from "@fortawesome/free-brands-svg-icons";
-import {faBars} from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -36,7 +34,9 @@ function Header() {
             </nav>
           </div>
         </div>
-        <div className="icon-menu" id="icon-menu"><FontAwesomeIcon  icon={faBars} /></div>
+        <div className="icon-menu" id="icon-menu">
+          <FontAwesomeIcon icon={faBars} />
+        </div>
       </div>
     </>
   );
