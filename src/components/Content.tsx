@@ -1,3 +1,4 @@
+import CardAside from "./CardAside";
 import "../css/content.css";
 
 function Content() {
@@ -88,48 +89,9 @@ function Content() {
         </p>
       </article>
       <div className="container-aside">
-        <aside>
-          <img src="src/assets/img/img-aside.png" alt="" />
-          <h2>Título del art</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-            laudantium quia fugiat aut sequi cum a, accusamus reprehenderit sit
-            odit, repellat modi qui voluptatibus quidem! Autem nam fugiat
-            possimus repellendus.
-          </p>
-          <a href="#">
-            {" "}
-            <button> Ver + </button>
-          </a>
-        </aside>
-        <aside>
-          <img src="src/assets/img/maxresdefault.jpg" alt="" />
-          <h2>Título del art</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-            laudantium quia fugiat aut sequi cum a, accusamus reprehenderit sit
-            odit, repellat modi qui voluptatibus quidem! Autem nam fugiat
-            possimus repellendus.
-          </p>
-          <a href="#">
-            {" "}
-            <button> Ver + </button>
-          </a>
-        </aside>
-        <aside>
-          <img src="src/assets/img/imagem_2023-11-08_124714483.png" alt="" />
-          <h2>Título del art</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-            laudantium quia fugiat aut sequi cum a, accusamus reprehenderit sit
-            odit, repellat modi qui voluptatibus quidem! Autem nam fugiat
-            possimus repellendus.
-          </p>
-          <a href="#">
-            {" "}
-            <button> Ver + </button>
-          </a>
-        </aside>
+        <CardAside />
+        <CardAside />
+        <CardAside />
       </div>
     </div>
   );
