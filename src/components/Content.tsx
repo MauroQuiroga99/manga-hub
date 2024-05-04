@@ -1,4 +1,4 @@
-import CardAside from "./CardAside";
+import PostCard from "./PostCard";
 import "../css/content.css";
 
 function Content() {
@@ -88,11 +88,11 @@ function Content() {
           Pariatur, dolorum obcaecati?
         </p>
       </article>
-      <div className="container-aside">
-        <CardAside />
-        <CardAside />
-        <CardAside />
-      </div>
+      <aside className="container-aside">
+        <PostCard />
+        <PostCard />
+        <PostCard />
+      </aside>
     </div>
   );
 }

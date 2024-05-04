@@ -45,7 +45,7 @@ article img{
     margin-top: 20px;
 }
 
-.container-aside aside{
+.container-aside div{
     width: 320px;
     border-right: 6px;
     border-radius: 6px;
@@ -57,7 +57,7 @@ article img{
 
 }
 
-.container-aside aside img{
+.container-aside div img{
     width: 100%;
 }
 
@@ -68,7 +68,7 @@ article img{
 
 }
 
-.container-aside aside button{
+.container-aside div button{
         margin-top: 20px;
         margin-left: 20px;
         padding: 10px 50px;
@@ -82,6 +82,6 @@ article img{
 
 }
 
-.container-aside aside button:hover{
+.container-aside div button:hover{
     opacity: 0.4;
 }
