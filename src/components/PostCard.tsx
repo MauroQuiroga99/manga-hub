@@ -1,6 +1,6 @@
 function PostCard() {
   return (
-    <div>
+    <div className="post-card-aside">
       <img src="src/assets/img/imagem_2023-11-08_124714483.png" alt="" />
       <h2>Título del art</h2>
       <p>
@@ -11,7 +11,7 @@ function PostCard() {
       </p>
       <a href="#">
         {" "}
-        <button> Ver + </button>
+        <button className="button-aside"> Ver + </button>
       </a>
     </div>
   );

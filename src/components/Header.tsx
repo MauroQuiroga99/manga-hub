@@ -1,6 +1,6 @@
 import "../css/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faNewspaper } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -15,20 +15,20 @@ function Header() {
 
           <div className="menu">
             <nav>
-              <ul>
+              <ul >
                 <li className="nav-item">
-                  <a href="#">Noticias</a>
+                  <a href="#"> <i></i>Noticias</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#">Reseñas</a>
+                  <a href="#"><i></i>Reseñas</a>
                 </li>
                 <li className="menu-select">
                   <a href="#" className="text-menu-select">
-                    Árticulos
+                     <i></i>Árticulos
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#">Más</a>
+                  <a href="#"><i></i> Más</a>
                 </li>
               </ul>
             </nav>

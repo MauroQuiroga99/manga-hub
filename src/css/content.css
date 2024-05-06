@@ -45,19 +45,20 @@ article img{
     margin-top: 20px;
 }
 
-.container-aside div{
+.container-aside .post-card-aside{
     width: 320px;
     border-right: 6px;
     border-radius: 6px;
-    box-shadow: 0 0 20px -20px black;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
     overflow: hidden;
-    margin-left: 40px;
+    margin-left: 5px;
     margin-bottom: 40px;
     padding-bottom: 20px;
+    margin: 10px;
 
 }
 
-.container-aside div img{
+.container-aside .post-card-aside img{
     width: 100%;
 }
 
@@ -68,7 +69,7 @@ article img{
 
 }
 
-.container-aside div button{
+.container-aside .post-card-aside button{
         margin-top: 20px;
         margin-left: 20px;
         padding: 10px 50px;
@@ -79,9 +80,38 @@ article img{
         cursor: pointer;
         border-radius: 6px;
         font-weight: bold;
+        
 
 }
 
-.container-aside div button:hover{
+.container-aside .post-card-aside button:hover{
     opacity: 0.4;
+}
+
+@media screen and (max-width:1220px){
+    .header-content,
+    .post-card-aside,
+    .container-content,
+    .container-footer footer {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (max-width:1020px){
+    .container-content {
+        width: 100%;
+        flex-direction: column;
+    }
+    .container-aside{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-aside aside{
+        max-width: 300px;
+        margin: 10px;
+    }
+
 }

@@ -1,3 +1,5 @@
+/*CSS HEADER*/
+
 .header{
     position: fixed;
     top: 0;
@@ -75,3 +77,42 @@
     font-weight: bold;
     ;
 }
+
+#icon-menu {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    background-color: #fafafafa;
+    border-radius: 100%;
+    color: #787878;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+}
+
+#icon-menu:hover{
+    background-color: #f2f2f2f2;
+}
+
+/* Responsive Desing*/
+@media screen and (max-width:800px){
+    .header-content{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .container-aside{
+        flex-wrap: wrap;
+    }
+}
+
+/*CSS FRONT*/
