@@ -89,13 +89,17 @@ article img{
 }
 
 @media screen and (max-width:1220px){
-    .header-content,
     .post-card-aside,
     .container-content,
     .container-footer footer {
         max-width: 1000px;
-        padding: 0 20px;
     }
+
+    .header-content{
+        max-width: 1000px;
+        margin: 0 20px;
+    }
+
 
 }
 
@@ -115,3 +119,4 @@ article img{
     }
 
 }
+

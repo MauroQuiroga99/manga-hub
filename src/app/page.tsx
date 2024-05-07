@@ -1,6 +1,6 @@
-import "../css/Front.css";
+import React from 'react'
 
-function Front() {
+const HomePage = () => {
   return (
     <div className="container-cover">
       <div className="container-info">
@@ -13,7 +13,7 @@ function Front() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Front;
+export default HomePage

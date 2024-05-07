@@ -1,7 +1,7 @@
 function PostCard() {
   return (
     <div className="post-card-aside">
-      <img src="src/assets/img/imagem_2023-11-08_124714483.png" alt="" />
+      <img src="/img/imagem_2023-11-08_124714483.png" alt="" />
       <h2>Título del art</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint

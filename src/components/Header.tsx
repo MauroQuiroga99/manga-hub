@@ -1,6 +1,6 @@
 import "../css/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faNewspaper } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faNewspaper,faStarHalfStroke, faFileInvoice, faPlus} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -17,18 +17,18 @@ function Header() {
             <nav>
               <ul >
                 <li className="nav-item">
-                  <a href="#"> <i></i>Noticias</a>
+                  <a href="#"> <i> <FontAwesomeIcon icon={faNewspaper} /></i>Noticias</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#"><i></i>Reseñas</a>
+                  <a href="#"><i> <FontAwesomeIcon icon={faStarHalfStroke} /></i>Reseñas</a>
                 </li>
                 <li className="menu-select">
                   <a href="#" className="text-menu-select">
-                     <i></i>Árticulos
+                     <i><FontAwesomeIcon icon={faFileInvoice } /></i>Árticulos
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#"><i></i> Más</a>
+                  <a href="#"><i><FontAwesomeIcon icon={faPlus } /></i> Más</a>
                 </li>
               </ul>
             </nav>

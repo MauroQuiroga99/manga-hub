@@ -1,7 +1,7 @@
-import PostCard from "./PostCard";
-import "../css/content.css";
+import React from "react";
+import PostCard from "../../components/PostCard";
 
-function Content() {
+const PostPage = () => {
   return (
     <div className="container-content">
       <article>
@@ -44,7 +44,7 @@ function Content() {
         </p>
         <br />
         <img
-          src="src/assets/img/bocchi-the-rock-scott-pilgrim-fan-art-anime.jpg_554688468.jpg"
+          src="/img/bocchi-the-rock-scott-pilgrim-fan-art-anime.jpg_554688468.jpg"
           alt=""
         />
         <h1>Subtitulo art</h1>
@@ -95,6 +95,6 @@ function Content() {
       </aside>
     </div>
   );
-}
+};
 
-export default Content;
+export default PostPage;
