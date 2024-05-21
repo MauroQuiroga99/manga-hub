@@ -6,7 +6,7 @@ const HomeCard = () => {
       <div className="card-home-content">
         <div className="card-home-item">
           <div className="card-home-img">
-            <img src="/img/imagem_2023-11-08_124714483.png" alt="" />
+            <img src="/img/FejzTOYWQAAnpn_.jpg" alt="" />
           </div>
           <div className="card-home-info">
             <h2>Título del art</h2>
@@ -15,9 +15,9 @@ const HomeCard = () => {
               laudantium quia fugiat aut sequi cum a, accusamus reprehenderit
               sit odit.
             </p>
-            <a href="#">
+            <a className="btn-home-card" href="#">
               {" "}
-              <button className="button-aside"> Ver + </button>
+              <button className="button-home"> Ver + </button>
             </a>
           </div>
         </div>

@@ -13,7 +13,25 @@ const HomePage = () => {
             <p>Noticias destacadas de la semana</p>
           </div>
           <div className="card-news-content">
-            <HomeCard />
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            
           </div>
         </div>
 
@@ -23,7 +41,15 @@ const HomePage = () => {
             <p>Noticias destacadas de la semana</p>
           </div>
           <div className="card-news-content">
-            <HomeCard />
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
           </div>
         </div>
         <div className="container-news">
@@ -32,7 +58,15 @@ const HomePage = () => {
             <p>Noticias destacadas de la semana</p>
           </div>
           <div className="card-news-content">
-            <HomeCard />
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
+            <div className="home-card">
+              <HomeCard />
+            </div>
           </div>
         </div>
       </div>
