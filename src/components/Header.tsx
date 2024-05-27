@@ -19,6 +19,18 @@ function Header() {
               Manga<b>Hub</b>
             </h1>
           </div>
+          <div className="input-header">
+            <input
+              type="text"
+              placeholder=" Anime, Manga, comics ... Anime, Manga, comics ..."
+            />
+
+            <button>
+              <i>
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
+              </i>
+            </button>
+          </div>
 
           <div className="menu">
             <nav className="navbar">
@@ -43,13 +55,6 @@ function Header() {
                 <li className="nav-item">
                   <a href="#">
                     <i></i> Más
-                  </a>
-                </li>
-                <li className="nav-item-search">
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={faMagnifyingGlass} />
-                    </i>
                   </a>
                 </li>
               </ul>

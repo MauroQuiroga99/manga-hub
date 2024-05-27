@@ -31,7 +31,6 @@ const HomePage = () => {
             <div className="home-card">
               <HomeCard />
             </div>
-            
           </div>
         </div>
 

@@ -97,17 +97,6 @@ html, body{
 
 }
 
-.menu .navbar .nav-item-search{
-    width: 15px;
-}
-
-.menu .navbar .nav-item-search:hover{
-    color:var(--primary-color);
-    font-weight: bold;
-
-}
-
-
 .header-content .menu .icon-menu{
     width: 40px;
     height: 40px;
@@ -132,11 +121,93 @@ html, body{
     
 }
 
+.input-header{ 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.input-header button {
+    width: 36px;
+    height: 36px;
+    padding: 5px 9px;
+    border-radius:0px 6px 6px 0px;
+    cursor: pointer;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: var(--bg-display-boton)
 
-/*HEADER MEDIAQUERRY*/
-@media(max-width:800px){
 
 }
+.input-header button:hover{
+    color: var(--bg-color);
+    background-color: var(--bg-color-boton);
+}
+
+.input-header input{
+    width: 450px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 10px;
+    border-radius: 6px;
+    padding-right: 35px;
+    border: none;
+}
+
+
+/*HEADER MEDIAQUERRY*/
+
+
+
+@media(max-width:800px){
+    .header-content .menu .icon-menu{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color:var(--bg-color-boton);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .menu .navbar ul {
+        display: none;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:1000px){
+    .header-content .menu .icon-menu{
+        margin-right: 20px;
+    }
+    .menu .navbar ul{
+        display: none;
+    }
+
+    .header-content .menu .icon-menu{
+        display: flex;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:1200px){
+    .logo{
+        margin-left: 20px;
+    }
+
+}
+
+
+
+
 
 
 
@@ -337,6 +408,26 @@ html, body{
     background-color: var(--border-btn-color);
     color: var(--bg-color);
 }
+
+
+
+/*HOMEPAGE MEDIAQUERRY*/
+
+
+@media(max-width:1000px){
+    .container-news{
+        min-width: 800px;
+    }
+
+}
+
+@media(max-width:800px){
+    .container-news{
+        min-width: 600px;
+    }
+
+}
+
 
 /* ------------------------------------------------ */
 article{
