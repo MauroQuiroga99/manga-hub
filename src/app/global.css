@@ -624,4 +624,124 @@ article img{
 }
 
 
+/*SearchPage */
+.search{
+    margin-top: 80px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+   
+}
 
+.search .search-container  {
+    max-width: 1300px;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.search .search-content{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 6px;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: #fefefe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 0;
+
+}
+
+/*Carta de SearchPage */
+
+.search-card-aside{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #5562EA;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin: 10px;
+}
+
+.search-card-aside:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:rgba(41, 41, 41, 0.326);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+
+.search-card-aside img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.search-card-aside h2{
+    position: absolute;
+    top: 200px;
+    margin-left: 20px;
+    font: bold;
+    color: var(--bg-color);
+    font-size: 30px;    
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-align:left;
+}
+
+.search-card-aside button{
+    position: relative;
+    color:var(--text-header-color);
+    bottom: 170px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color:var(--bg-color);
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; 
+}
+
+.search-card-aside button:hover{
+    background-color:var(--text-header-color);
+    color: var(--bg-color);
+}
+
+/*MediaQuerry SearchPage*/
+
+@media(max-width:1300px){
+    .search-container{
+        max-width: 1000px;
+    }
+
+    .search-content{
+        max-width: 11   00px;
+    }
+}
